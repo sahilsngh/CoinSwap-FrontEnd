@@ -1,0 +1,57 @@
+/* Wrapper for centering with margins */
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0d0d0d; /* Background color of the header */
+  }
+  
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    background-color: #3a6df0; /* Adjust color to match screenshot */
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 50%; /* Set width to 50% for 25% margin on each side */
+    max-width: 800px; /* Optional: Limit maximum width */
+  }
+  
+  .logo img {
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .menu-item .icon {
+    margin-right: 5px;
+  }
+  
+  .discord-icon {
+    background-color: #6366f1; /* Adjust color to match Discord icon */
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .discord-icon .icon {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  

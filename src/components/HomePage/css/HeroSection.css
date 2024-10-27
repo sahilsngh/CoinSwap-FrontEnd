@@ -1,0 +1,34 @@
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    color: #ffffff;
+  }
+  
+  .highlight {
+    color: #3a6df0;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .button-group {
+    margin: 20px 0;
+  }
+  
+  .discord-button, .launch-button {
+    background-color: #3a6df0;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icons-group img {
+    height: 50px;
+    margin: 10px;
+  }
+  

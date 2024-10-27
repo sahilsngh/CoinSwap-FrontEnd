@@ -1,0 +1,15 @@
+.transaction-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .transaction-page > div {
+    flex: 1;
+    max-width: 500px; /* Adjust based on your design */
+    height: 100%; /* Ensure both components have equal height */
+  }
+  
