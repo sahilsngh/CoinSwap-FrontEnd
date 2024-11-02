@@ -1,0 +1,13 @@
+.dashboard-page {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-grow: 1;
+  background-color: #0f172a;
+}
+
+@media (max-width: 768px) {
+  .dashboard-page {
+    flex-direction: column;
+  }
+}

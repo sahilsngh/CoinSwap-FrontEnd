@@ -1,0 +1,37 @@
+.dashboard {
+  background-color: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #e2e8f0;
+}
+
+.launch-app-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.launch-app-button {
+  display: flex;
+  align-items: center;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.launch-app-button:hover {
+  background-color: #1d4ed8;
+}
+
+.launch-app-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}

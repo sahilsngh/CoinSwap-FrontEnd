@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding-top: 37px;
+  /* margin-left: 277px; */
+  gap: 12px;
+  background-color: #1e293b;
+  /* border-bottom: 1px solid #2d3748; */
+}
+.logomenu{
+position: relative;
+display: flex;
+padding-right:30px;
+background-color: #264ff8;
+gap:155px;
+border-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 64px;
+  height: 64px;
+  margin-right: 1rem;
+}
+
+.logo-text {
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  color: #a0aec0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: #e2e8f0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.discord-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.discord-button:hover {
+  opacity: 0.8;
+}
+
+.discord-icon {
+  width: 24px;
+  height: 24px;
+}

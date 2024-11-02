@@ -1,0 +1,67 @@
+.analytics {
+  flex: 1;
+  background-color: #1e293b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #e2e8f0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #000814;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.graph {
+  height: 200px;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #64748b;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.metrics {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.metric {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #2563eb;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: #e2e8f0;
+}
+
+.recent-trades {
+  background-color: #0f172a;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.recent-trades table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-trades th, .recent-trades td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #1e293b;
+  color: #94a3b8;
+}
+
+.recent-trades th {
+  color: #e2e8f0;
+}
