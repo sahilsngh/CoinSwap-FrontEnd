@@ -1,0 +1,36 @@
+.webViewResets,
+.webViewResets * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.webViewResets,
+.webViewResets :not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+.webViewResets ul,
+.webViewResets ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+.webViewResets p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+.webViewResets img {
+  object-fit: contain;
+}
+
+.webViewResets svg {
+  overflow: visible;
+}

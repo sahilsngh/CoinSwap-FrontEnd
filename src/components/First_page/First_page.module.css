@@ -1,0 +1,397 @@
+.root {
+  position: relative;
+  width: 1280px;
+  height: 1460px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #000814;
+  overflow: hidden;
+}
+.about {
+  position: absolute;
+  left: 1089.6421px;
+  top: 1179.1992px;
+  width: 130.245px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame1437253021 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 17px;
+}
+.product {
+  color: #fff;
+  font-size: 24px;
+  line-height: 16.0375px;
+  font-weight: bold;
+  font-family: Dx Dynamix-Free-Personal-Use, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.aboutProduct {
+  color: #ffffff85;
+  font-size: 20px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.guide {
+  color: #ffffff85;
+  font-size: 20px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.frame1437253020 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 4px;
+}
+.joinDiscord {
+  color: #ffffff85;
+  font-size: 20px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.discord {
+  width: 37px;
+  height: 34px;
+  background-image:/* webpackIgnore: true */ url('assets/discord.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ellipse {
+  position: absolute;
+  left: 349px;
+  top: 1036px;
+  width: 601px;
+  height: 424px;
+  background-image:/* webpackIgnore: true */ url('assets/ellipse.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame1437253230 {
+  position: absolute;
+  left: 48.8999px;
+  top: 1171.6992px;
+  width: 531.002px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+}
+.frame14372530341 {
+  width: 139px;
+  height: 57px;
+  background-image:/* webpackIgnore: true */ url('assets/frame14372530341.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.theUltimatePlatformForTurningC {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.textBlock {
+  color: #ffffff80;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #ffffff80;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.metaborong {
+  color: #fff9;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - 20.8579px);
+  top: 1345.6992px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.isnTJustAFlex {
+  color: #ffffff63;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: Awesome Serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - -106.7578px);
+  top: calc(50% - 488.199px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.holding {
+  position: absolute;
+  left: 310px;
+  top: 207px;
+  width: 250px;
+  height: 77px;
+  background-image:/* webpackIgnore: true */ url('assets/holding.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.itIsA {
+  color: #ffffff63;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: Awesome Serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - 87.2422px);
+  top: 288.2683px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.strategy {
+  position: absolute;
+  left: 611px;
+  top: 285px;
+  width: 223px;
+  height: 52px;
+  background-image:/* webpackIgnore: true */ url('assets/strategy.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.launch_app {
+  position: absolute;
+  left: 498.1421px;
+  top: 383px;
+  width: 302px;
+  height: 54px;
+  background-image:/* webpackIgnore: true */ url('assets/launch_app.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navigation {
+  position: absolute;
+  left: calc(50% - 0px);
+  top: 37px;
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 12px;
+  transform: translateX(-50%);
+}
+.nav_bar {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 60px;
+  padding: 10px 26px 10px 10px;
+  outline: solid 2px #fff;
+  outline-offset: -2px;
+  border-radius: 8px;
+  background-color: #204af8e5;
+  overflow: hidden;
+  box-shadow: 0px 4px 0px 0px #fff;
+}
+.small_logo {
+  width: 74px;
+  height: 28px;
+  background-image:/* webpackIgnore: true */ url('assets/small_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav_content {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 32.0751px;
+}
+.home {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 4.8113px;
+}
+.home_logo {
+  width: 20px;
+  height: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/home_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home2 {
+  color: #fff;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.admin {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 4.8113px;
+}
+.admin_logo {
+  width: 21px;
+  height: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/admin_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admin2 {
+  color: #fff;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.analytics {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 3.2075px;
+}
+.analytics_logo {
+  width: 21px;
+  height: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/analytics_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.analytics2 {
+  color: #fff;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.giude {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 3.2075px;
+}
+.guide_logo {
+  width: 20px;
+  height: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/guide_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.guide2 {
+  color: #fff;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.about2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 4.8113px;
+}
+.about_logo {
+  width: 20px;
+  height: 20px;
+  background-image:/* webpackIgnore: true */ url('assets/about_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about3 {
+  color: #fff;
+  font-size: 16.0375px;
+  line-height: 16.0375px;
+  font-family: Neue Montreal, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.discord_logo {
+  width: 67px;
+  height: 54px;
+  background-image:/* webpackIgnore: true */ url('assets/discord_logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  position: absolute;
+  left: 569px;
+  top: 658px;
+  width: 143px;
+  height: 143px;
+  background-image:/* webpackIgnore: true */ url('assets/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
