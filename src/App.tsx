@@ -15,3 +15,4 @@ export const App: FC<Props> = memo(function App(props = {}) {
     </div>
   );
 });
+

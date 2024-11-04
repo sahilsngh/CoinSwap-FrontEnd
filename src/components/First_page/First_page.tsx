@@ -1,16 +1,13 @@
-import { memo } from 'react';
-import type { FC } from 'react';
-
-import resets from '../_resets.module.css';
+import React, { FC, memo } from 'react';
+import LogoAnimation from './Animate';
 import classes from './First_page.module.css';
+import resets from '../_resets.module.css';
 
-interface Props {
-  className?: string;
-}
-/* @figmaId 1:2828 */
+interface Props {}
+
 export const First_page: FC<Props> = memo(function First_page(props = {}) {
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div className={`${resets.webViewResets} ${classes.root}`}>
       <div className={classes.about}>
         <div className={classes.frame1437253021}>
           <div className={classes.product}>Product</div>
@@ -35,7 +32,7 @@ export const First_page: FC<Props> = memo(function First_page(props = {}) {
       <div className={classes.metaborong}>2024 @metaborong all rights reserved</div>
       <div className={classes.isnTJustAFlex}>isn&#39;t just a flex,</div>
       <div className={classes.holding}></div>
-      <div className={classes.itIsA}>it is a</div>
+      <div className={classes.itIsA}>it is a  </div>
       <div className={classes.strategy}></div>
       <div className={classes.launch_app}></div>
       <div className={classes.navigation}>
@@ -67,6 +64,44 @@ export const First_page: FC<Props> = memo(function First_page(props = {}) {
         <div className={classes.discord_logo}></div>
       </div>
       <div className={classes.logo}></div>
+
+      {/* Animation */}
+      <LogoAnimation
+        logoPath="/assets/animation/kermit-logo.png"
+        angleOffset={30}
+        distance={300}
+        duration={1}
+        tiltAngle={0}
+        startTop="640px"
+        startLeft="658px"
+      />
+      <LogoAnimation
+        logoPath="/assets/animation/shiba-logo.png"
+        angleOffset={-30}
+        distance={200}
+        duration={1}
+        tiltAngle={0}
+        startTop="640px"
+        startLeft="658px"
+      />
+      <LogoAnimation
+        logoPath="/assets/animation/ponke-logo.png"
+        angleOffset={-120}
+        distance={200}
+        duration={1}
+        tiltAngle={0}
+        startTop="640px"
+        startLeft="658px"
+      />
+      <LogoAnimation
+        logoPath="/assets/animation/doge-logo.png"
+        angleOffset={-150}
+        distance={300}
+        duration={1}
+        tiltAngle={0}
+        startTop="640px"
+        startLeft="658px"
+      />
     </div>
   );
 });

@@ -395,3 +395,32 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* Centers the container in the middle of the page */
+.logo_animation_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Container for the logo, positioned relatively to anchor the absolute logo inside */
+.logo_animation_container {
+  position: relative;
+}
+
+/* Absolutely positions the animated logo at a fixed starting position */
+.logo_animation_animated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%); /* Center the logo from provided coords */
+}
+
+/* Styling for the logo image */
+.logo_image {
+  width: 71px; /* Adjust width as needed */
+  height: 71px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
