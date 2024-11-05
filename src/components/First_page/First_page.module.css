@@ -184,8 +184,8 @@
 }
 .strategy {
   position: absolute;
-  left: 611px;
-  top: 285px;
+  top: 300px;
+  left: 625px;
   width: 223px;
   height: 52px;
   background-image:/* webpackIgnore: true */ url('assets/strategy.png');
@@ -194,6 +194,7 @@
   background-size: cover;
 }
 .launch_app {
+  cursor: pointer;
   position: absolute;
   left: 498.1421px;
   top: 383px;
@@ -242,6 +243,7 @@
   gap: 32.0751px;
 }
 .home {
+  cursor: pointer;
   width: min-content;
   height: min-content;
   align-items: center;
@@ -269,6 +271,7 @@
   flex-direction: column;
 }
 .admin {
+  cursor: pointer;
   width: min-content;
   height: min-content;
   align-items: center;
@@ -296,6 +299,7 @@
   flex-direction: column;
 }
 .analytics {
+  cursor: pointer;
   width: min-content;
   height: min-content;
   align-items: center;
@@ -323,6 +327,7 @@
   flex-direction: column;
 }
 .giude {
+  cursor: pointer;
   width: min-content;
   height: min-content;
   align-items: center;
@@ -350,6 +355,7 @@
   flex-direction: column;
 }
 .about2 {
+  cursor: pointer;
   width: min-content;
   height: min-content;
   align-items: center;
@@ -377,6 +383,7 @@
   flex-direction: column;
 }
 .discord_logo {
+  cursor: pointer;
   width: 67px;
   height: 54px;
   background-image:/* webpackIgnore: true */ url('assets/discord_logo.png');
@@ -423,4 +430,3 @@
   height: 71px; /* Adjust height as needed */
   object-fit: cover;
 }
-

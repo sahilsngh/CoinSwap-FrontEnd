@@ -1,4 +1,5 @@
 import React, { FC, memo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import LogoAnimation from './Animate';
 import classes from './First_page.module.css';
 import resets from '../_resets.module.css';
@@ -6,6 +7,13 @@ import resets from '../_resets.module.css';
 interface Props {}
 
 export const First_page: FC<Props> = memo(function First_page(props = {}) {
+
+  const navigate = useNavigate();
+
+  const handleLaunchAppClick = () => {
+    navigate('/swap'); // Update the route to the path for Swap_app
+  };
+
   return (
     <div className={`${resets.webViewResets} ${classes.root}`}>
       <div className={classes.about}>
@@ -34,7 +42,7 @@ export const First_page: FC<Props> = memo(function First_page(props = {}) {
       <div className={classes.holding}></div>
       <div className={classes.itIsA}>it is a  </div>
       <div className={classes.strategy}></div>
-      <div className={classes.launch_app}></div>
+      <div className={classes.launch_app} onClick={handleLaunchAppClick}></div>
       <div className={classes.navigation}>
         <div className={classes.nav_bar}>
           <div className={classes.small_logo}></div>
