@@ -104,7 +104,7 @@
 .discord {
   width: 37px;
   height: 34px;
-  background-image:/* webpackIgnore: true */ url('assets/discord.png');
+  background-image:/* webpackIgnore: true */ url('/assets/discord.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +115,7 @@
   top: 810px;
   width: 601px;
   height: 424px;
-  background-image:/* webpackIgnore: true */ url('assets/ellipse.png');
+  background-image:/* webpackIgnore: true */ url('/assets/ellipse.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,7 +133,7 @@
 .frame3 {
   width: 139px;
   height: 57px;
-  background-image:/* webpackIgnore: true */ url('assets/frame3.png');
+  background-image:/* webpackIgnore: true */ url('/assets/frame3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -530,7 +530,7 @@
 .dogecoinDogeLogo2 {
   width: 22px;
   height: 22px;
-  background-image:/* webpackIgnore: true */ url('assets/dogecoinDogeLogo2.png');
+  background-image:/* webpackIgnore: true */ url('/assets/dogecoinDogeLogo2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -552,7 +552,7 @@
 .expander {
   width: 18px;
   height: 18px;
-  background-image:/* webpackIgnore: true */ url('assets/expander.png');
+  background-image:/* webpackIgnore: true */ url('/assets/expander.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -927,7 +927,7 @@
 .setting {
   width: 25px;
   height: 26px;
-  background-image:/* webpackIgnore: true */ url('assets/setting.png');
+  background-image:/* webpackIgnore: true */ url('/assets/setting.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -952,7 +952,7 @@
   top: 685px;
   width: 109px;
   height: 109px;
-  background-image:/* webpackIgnore: true */ url('assets/logo_tilted.png');
+  background-image:/* webpackIgnore: true */ url('/assets/logo_tilted.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -963,7 +963,7 @@
   top: 310px;
   width: 91px;
   height: 268px;
-  background-image:/* webpackIgnore: true */ url('assets/conlines.png');
+  background-image:/* webpackIgnore: true */ url('/assets/conlines.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1016,7 +1016,7 @@
 .analyticsTooltip {
   width: 19px;
   height: 18px;
-  background-image:/* webpackIgnore: true */ url('assets/analyticsTooltip.png');
+  background-image:/* webpackIgnore: true */ url('/assets/analyticsTooltip.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1421,7 +1421,7 @@
 .small_logo {
   width: 74px;
   height: 28px;
-  background-image:/* webpackIgnore: true */ url('assets/small_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/small_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1442,7 +1442,7 @@
 .home_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/home_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/home_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1470,7 +1470,7 @@
 .admin_logo {
   width: 21px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/admin_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/admin_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1498,7 +1498,7 @@
 .analytics_logo {
   width: 21px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/analytics_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/analytics_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1526,7 +1526,7 @@
 .guide_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/guide_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/guide_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1554,7 +1554,7 @@
 .about_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/about_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/about_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1576,7 +1576,7 @@
   cursor: pointer;
   width: 67px;
   height: 54px;
-  background-image:/* webpackIgnore: true */ url('assets/discord_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/discord_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

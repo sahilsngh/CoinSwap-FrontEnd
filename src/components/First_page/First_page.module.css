@@ -72,7 +72,7 @@
 .discord {
   width: 37px;
   height: 34px;
-  background-image:/* webpackIgnore: true */ url('assets/discord.png');
+  background-image:/* webpackIgnore: true */ url('/assets/discord.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,7 @@
   top: 1036px;
   width: 601px;
   height: 424px;
-  background-image:/* webpackIgnore: true */ url('assets/ellipse.png');
+  background-image:/* webpackIgnore: true */ url('/assets/ellipse.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@
 .frame14372530341 {
   width: 139px;
   height: 57px;
-  background-image:/* webpackIgnore: true */ url('assets/frame14372530341.png');
+  background-image:/* webpackIgnore: true */ url('/assets/frame14372530341.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,7 +336,7 @@
 .guide_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/guide_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/guide_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -364,7 +364,7 @@
 .about_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/about_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/about_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -386,7 +386,7 @@
   cursor: pointer;
   width: 67px;
   height: 54px;
-  background-image:/* webpackIgnore: true */ url('assets/discord_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/discord_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -397,7 +397,7 @@
   top: 658px;
   width: 143px;
   height: 143px;
-  background-image:/* webpackIgnore: true */ url('assets/logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
