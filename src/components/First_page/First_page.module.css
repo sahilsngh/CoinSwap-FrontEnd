@@ -162,7 +162,7 @@
   top: 207px;
   width: 250px;
   height: 77px;
-  background-image:/* webpackIgnore: true */ url('assets/holding.png');
+  background-image:/* webpackIgnore: true */ url('/assets/holding.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@
   left: 625px;
   width: 223px;
   height: 52px;
-  background-image:/* webpackIgnore: true */ url('assets/strategy.png');
+  background-image:/* webpackIgnore: true */ url('/assets/strategy.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,7 +200,7 @@
   top: 383px;
   width: 302px;
   height: 54px;
-  background-image:/* webpackIgnore: true */ url('assets/launch_app.png');
+  background-image:/* webpackIgnore: true */ url('/assets/launch_app.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@
 .small_logo {
   width: 74px;
   height: 28px;
-  background-image:/* webpackIgnore: true */ url('assets/small_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/small_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +252,7 @@
 .home_logo {
   width: 20px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/home_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/home_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +280,7 @@
 .admin_logo {
   width: 21px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/admin_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/admin_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +308,7 @@
 .analytics_logo {
   width: 21px;
   height: 20px;
-  background-image:/* webpackIgnore: true */ url('assets/analytics_logo.png');
+  background-image:/* webpackIgnore: true */ url('/assets/analytics_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
