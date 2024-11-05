@@ -3,16 +3,16 @@ import type { FC } from 'react';
 
 import resets from '../_resets.module.css';
 import classes from './Swap_app.module.css';
-import { Dogecoin_doge_logoIcon } from './Dogecoin_doge_logoIcon';
-import { DogecoinDogeLogoIcon } from './DogecoinDogeLogoIcon';
+import { Dogecoin_doge_logoIcon } from './SVG/Dogecoin_doge_logoIcon';
+import { DogecoinDogeLogoIcon } from './SVG/DogecoinDogeLogoIcon';
 import { Heart } from './Heart/Heart';
-import { HourglassIcon } from './HourglassIcon';
-import { InformationCircleIcon } from './InformationCircleIcon';
-import { Ms_coinIcon } from './Ms_coinIcon';
-import { StakeIcon } from './StakeIcon';
-import { TradeUpIcon } from './TradeUpIcon';
-import { WalletAddIcon } from './WalletAddIcon';
-import { WalletAddIcon2 } from './WalletAddIcon2';
+import { HourglassIcon } from './SVG/HourglassIcon';
+import { InformationCircleIcon } from './SVG/InformationCircleIcon';
+import { Ms_coinIcon } from './SVG/Ms_coinIcon';
+import { StakeIcon } from './SVG/StakeIcon';
+import { TradeUpIcon } from './SVG/TradeUpIcon';
+import { WalletAddIcon } from './SVG/WalletAddIcon';
+import { WalletAddIcon2 } from './SVG/WalletAddIcon2';
 import { WalletAdd_StyleLinear } from './WalletAdd_StyleLinear/WalletAdd_StyleLinear';
 
 interface Props {
